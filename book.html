@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Petit Social | Book</title>
+  </head>
+  <body>
+    <div class="container1">
+      <img src="PSLOGO-11.svg" id="altLogo" />
+    </div>
+
+    <div class="bookingPanel">
+      <iframe
+        class="reserve"
+        src="https://booking.resdiary.com/widget/Standard/HoleeClucker/24281?includeJquery=true"
+        frameborder="0"
+        style="height: 650px; max-width: 300px"
+      ></iframe>
+    </div>
+
+    <div class="content">
+      <a href="index.html"><button>Go Back</button></a>
+    </div>
+
+    <input
+      id="rdwidgeturl"
+      name="rdwidgeturl"
+      value="https://booking.resdiary.com/widget/Standard/HoleeClucker/24281?includeJquery=false"
+      type="hidden"
+    />
+    <script
+      type="text/javascript"
+      src="https://booking.resdiary.com/bundles/WidgetV2Loader.js"
+    ></script>
+  </body>
+</html>

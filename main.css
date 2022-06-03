@@ -1,0 +1,105 @@
+body {
+  background-color: #dedbd9;
+}
+.container {
+  margin-top: 200px;
+}
+
+#psLogo {
+  max-width: 300px;
+  display: block;
+  margin: 100px auto;
+}
+
+.containter1 {
+  margin-top: 100px;
+}
+
+#altLogo {
+  max-width: 150px;
+  display: block;
+  margin: 50px auto;
+}
+a {
+  text-decoration: none;
+  color: #e62545;
+}
+
+a:hover {
+  color: #46484c;
+}
+.content {
+  text-align: center;
+}
+
+.content button {
+  color: #e62545;
+  font-family: "Gill Sans";
+  text-transform: uppercase;
+  border: solid 1px #e62545;
+  border-radius: 0px;
+  background: none;
+  padding: 15px;
+  margin: 10px;
+  transition: 500ms ease-in-out;
+}
+.content button:hover {
+  color: #46484c;
+  border: solid 1px #46484c;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.picture {
+  text-align: center;
+}
+
+.bookingPanel {
+  text-align: center;
+}
+
+/* menu page */
+
+.menuBody {
+  text-align: center;
+  margin: 20px 50px;
+}
+.bottom-layer {
+  margin-left: 35px;
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+
+.menuBody label {
+  font-family: "Garamond Premier Pro";
+  font-weight: lighter;
+}
+
+.menuBody label:hover {
+  opacity: 50%;
+}
+
+.menuBody input:checked {
+  max-height: 100%;
+}
+.menuBody input {
+  display: none;
+}
+
+.menuBody input:checked ~ .top-content {
+  max-height: 100%;
+}
+.menuBody input {
+  display: none;
+}
+
+.top-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+#dots {
+  color: #e62545;
+}
